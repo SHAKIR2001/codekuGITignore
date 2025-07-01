@@ -1,0 +1,69 @@
+# Node modules (backend & frontend)
+node_modules/
+client/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.* 
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output
+build/
+client/build/
+dist/
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+bower_components/
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package locks
+package-lock.json
+yarn.lock
+
+# Misc
+*.tgz
+*.bak
+*.swp
+
+# MongoDB local database dumps
+dump/
+
+# React specific
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Firebase / other platform configs (optional)
+firebase-debug.log
+
+# Lint cache
+.eslintcache
